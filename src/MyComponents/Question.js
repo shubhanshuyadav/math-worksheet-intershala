@@ -95,7 +95,7 @@ export class Question extends PureComponent {
         }))
         start = setInterval(() => {
             this.nextDisplayingStr();
-        }, 100);
+        }, 1500);
 
     }
 
